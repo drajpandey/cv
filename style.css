@@ -9,7 +9,7 @@ h1,h4,.list
 {
 color: #0F2C67;
 width:500px;
-border:1px solid black;
+/*border:1px solid black;*/
 
 font-style: normal;
 font-weight: 400;
@@ -34,7 +34,7 @@ body {
   background-color: #D5D5D5;
   font-family: serif;
   font-size: 20px;
-  text-shadow: 4px 4px 4px #aaa;
+  
 }
 .box {
   margin: 30px;
@@ -48,7 +48,7 @@ body {
   background-color: #DADDFC;
   font-family:  serif;
   font-size: 12px;
-  text-shadow: 4px 4px 4px #aaa;
+  
 
 }
 .practicle2{
@@ -58,7 +58,7 @@ body {
   text-shadow: 4px 4px 4px #aaa;
 }
 .practicle4{
-  background-color: #F0E9D2;
+  background-color: #98AFC7;
 
   font-size: 12px;
   text-shadow: 4px 4px 4px #aaa;
@@ -71,13 +71,13 @@ body {
 
 }
 .index
-{background-color: #F3F0D7;}
+{background-color: #D2B9D3;}
 /***********************************HR********************************************/
-/*hr{
+hr{
   background-color: white;
   border-style:none ;
   border-top-style: dotted;
   height: 2px;
   width: 10%;
 
-}*/
+}
