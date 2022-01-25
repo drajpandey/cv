@@ -18,7 +18,7 @@ font-stretch: normal;
 .gec{
   color: Red;
   width:800px;
-  border:5px solid black;
+ /* border:5px solid black;*/
   font-family: 'Inconsolata';
   font-style: normal;
   font-weight: 400;
