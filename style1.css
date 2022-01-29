@@ -6,6 +6,10 @@ h3
 color: green;
 font-weight: 400;
 }
+h2{
+  font-size: 100%;
+  font-family: 'Quintessential', cursive;
+}
 h1
 {
   font-family: 'Bree Serif', serif;
@@ -21,15 +25,15 @@ border:2px solid black;
 font-style: normal;
 font-weight: 500;
 font-stretch: normal;
-  font-size: 200%;
+  font-size: 150%;
 }
 td {
 font-family: 'Hind Siliguri', sans-serif;
- font-size: 150%;
+ font-size: 75%;
 }
 p{
   font-family: 'Hind Siliguri', sans-serif;
-  font-size: 150%;
+  font-size: 75%;
 }
 .raj
 {
