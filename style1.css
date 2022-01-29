@@ -1,0 +1,35 @@
+body{
+  background-color: #E6DDC4;
+}
+h3
+{
+color: green;
+font-weight: 400;
+}
+h1
+{
+font-family: 'Source Code Pro', monospace;
+color: #0F2C67;
+width:300px;
+border:2px solid black;
+
+     display: block;
+     margin-left: 40%;
+     margin-right:50%;
+
+font-style: normal;
+font-weight: 500;
+font-stretch: normal;
+}
+td {
+font-family: 'Hind Siliguri', sans-serif;
+}
+p{
+  font-family: 'Hind Siliguri', sans-serif;
+}
+.raj
+{
+  float: right;
+  margin-right: 20px;
+  
+}
