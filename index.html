@@ -13,26 +13,49 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Merriweather:ital,wght@1,300&family=Quintessential&family=Shadows+Into+Light&family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Hind+Madurai:wght@300&family=
+Hind+Siliguri&family=Merriweather:ital,wght@1,300&family=Poppins:ital,wght@0,200;0,300;0,
+400;1,200&family=Quintessential&family=Shadows+Into+Light&family=Source+Code+Pro:wght
+@200&family=Staatliches&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
 
+  <!-- bootdtrap mdn -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
   </head>
 
-  <body class="index">
-<!--     change start-->
-    <header>
-      <div class="main">
+<body>
+  <section class="header">
+     
+<!--                           change                -->
+                                         
+                                           <nav>
+      <a href="index.html"><img src="logo.png"></a>
+      <!-- cross sign -->
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hidemenu()"></i>
         <ul>
-          <li><a class="active"  href="#">Home</a></li>
-          
-          
-         
+            <li><a class="active"  href="#">Home</a></li>
           <li><a href="cv.html">My RESUME</a></li>
            <li><a href="registration.html">Register</a></li>
           <li><a href="PRACTICLE4.html">Practice</a></li>
           <li><a href="registration.html">Contact us</a></li>
       
-          
+
+
         </ul>
+
       </div>
+      <!-- navigation bar -->
+      <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+<!--                       change                    -->
+                                         
+                                         
     </header>
     <p>&nbsp</p>
     
@@ -82,5 +105,16 @@
        
 </footer>
     </center>
+                                              <script>
+    var navLinks = document.getElementById("navLinks")
+
+    function showmenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hidemenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
   </body>
 </html>
